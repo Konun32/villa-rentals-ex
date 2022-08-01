@@ -6,6 +6,13 @@ $(document).ready(function(){
 		centerMode: true,
 		slidesToShow: 1,
 	});
+	$('.services__slider').slick({
+		arrows: true,
+		dots: false,
+		variableWidth: true,
+		//infinite: false,
+		slidesToShow: 3,
+	});
 	$('.view__slider').slick({
 		arrows: true,
 		dots: true,
